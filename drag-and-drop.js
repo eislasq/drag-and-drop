@@ -2,7 +2,7 @@
         'dragstart drag dragenter dragleave dragover drop dragend'.split(' '),
         function (eventName) {
             var directiveName = 'ng' + eventName[0].toUpperCase() + eventName.slice(1);
-            angular.module('dragNdrop')
+            angular.module('drag-and-drop', [])
                     .directive(directiveName, function ($parse, $rootScope) {
                         return {
                             restrict: 'A',

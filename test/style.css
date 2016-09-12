@@ -1,0 +1,21 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12/09/2016, 04:30:07 PM
+    Author     : eislas
+*/
+
+
+.drag, .dropp{
+    display: inline-block;
+    min-height: 50px;
+    border: solid black 1px;
+    width: 30%
+}
+
+.dropp{
+    border-style: dashed;
+}

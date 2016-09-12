@@ -1,0 +1,24 @@
+{
+  "name": "drag-and-drop",
+  "main": "drag-and-drop.js",
+  "homepage": "https://github.com/eislasq/drag-and-drop",
+  "authors": [
+    "Eliut Islas <eliut@outlook.com>"
+  ],
+  "description": "AngularJS directives for HTML5 drag and drop",
+  "keywords": [
+    "drag and drop",
+    "angularjs"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8"
+  }
+}
