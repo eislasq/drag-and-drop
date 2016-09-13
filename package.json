@@ -1,0 +1,29 @@
+{
+    "name": "drag-and-drop",
+    "version": "0.0.2",
+    "description": "Drag and drop directives for angularJS",
+    "main": "drag-and-drop.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "test": "test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/eislasq/drag-and-drop.git"
+    },
+    "keywords": [
+        "drag and drop",
+        "angularjs"
+    ],
+    "author": "Eliut Islas <eliut@outlook.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/eislasq/drag-and-drop/issues"
+    },
+    "homepage": "https://github.com/eislasq/drag-and-drop#readme",
+    "dependencies": {
+        "angular": "^1.5.8"
+    }
+}
