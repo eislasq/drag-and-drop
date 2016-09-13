@@ -14,6 +14,10 @@
 bower install drag-and-drop --save
 ```
 
+## Instalación con npm
+```
+npm install drag-and-drop --save
+```
 
 ## Ejemplo de uso
 <a href="http://plnkr.co/edit/d4OgfpeyI8dYE0mty5lP?p=preview" target="_blank">Demo</a>
