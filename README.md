@@ -16,7 +16,7 @@ bower install drag-and-drop --save
 
 
 ## Ejemplo de uso
-<a href="http://plnkr.co/edit/yFTetlPuxCAZuHzPj9BE?p=preview" target="_blank">Demo</a>
+<a href="http://plnkr.co/edit/d4OgfpeyI8dYE0mty5lP?p=preview" target="_blank">Demo</a>
 
 ## Otro ejemplo
 ```html
