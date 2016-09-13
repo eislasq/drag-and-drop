@@ -19,3 +19,7 @@ and open the template in the editor.
 .dropp{
     border-style: dashed;
 }
+
+.drag{
+    cursor: move;
+}

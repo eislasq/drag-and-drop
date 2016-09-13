@@ -1,8 +1,11 @@
+var eiq_submodules_ = [];
 [].forEach.call(
         'dragstart drag dragenter dragleave dragover drop dragend'.split(' '),
         function (eventName) {
             var directiveName = 'ng' + eventName[0].toUpperCase() + eventName.slice(1);
-            angular.module('drag-and-drop', [])
+            var submoduleName = 'drag-and-drop.directives.' + eventName;
+            eiq_submodules_.push(submoduleName);
+            angular.module(submoduleName, [])
                     .directive(directiveName, function ($parse, $rootScope) {
                         return {
                             restrict: 'A',
@@ -25,3 +28,6 @@
                     });
         }
 );
+
+
+angular.module('drag-and-drop', eiq_submodules_);
