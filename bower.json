@@ -7,8 +7,10 @@
   ],
   "description": "AngularJS directives for HTML5 drag and drop",
   "keywords": [
-    "drag and drop",
-    "angularjs"
+    "angularjs",
+    "drag",
+    "drop",
+    "directives"
   ],
   "license": "MIT",
   "ignore": [
